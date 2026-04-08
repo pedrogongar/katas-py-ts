@@ -1,0 +1,18 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+*.log
+
+# Editor
+.vscode/*
+!.vscode/settings.json
+.idea/
+
+# Sistema
+.DS_Store
