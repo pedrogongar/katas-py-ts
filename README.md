@@ -30,18 +30,23 @@ Cada ejercicio se resuelve **dos veces**: primero en uno de los dos lenguajes y 
 
 ## Estructura
 
-Cada ejercicio vive en su propia carpeta numerada, con una subcarpeta por lenguaje:
+Cada ejercicio vive en su propia carpeta con prefijo `ej`, y dentro tiene una subcarpeta por lenguaje:
 
 ```
 katas-py-ts/
-├── 00-setup/
+├── ej00_setup/
 │   ├── python/
+│   │   ├── __init__.py
 │   │   ├── solucion.py
 │   │   └── test_solucion.py
 │   └── typescript/
 │       ├── solucion.ts
 │       └── solucion.test.ts
-├── 01-.../
+├── ej01_segundos_a_hms/
+│   ├── README.md
+│   ├── descomposicion.md
+│   ├── python/
+│   └── typescript/
 └── ...
 ```
 

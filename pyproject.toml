@@ -1,5 +1,7 @@
 [tool.pytest.ini_options]
-pythonpath = ["00-setup/python"]
+addopts = "--import-mode=importlib -ra"
+testpaths = ["ej00_setup", "ej01_segundos_a_hms"]
 
 [tool.basedpyright]
-extraPaths = ["00-setup/python"]
+typeCheckingMode = "standard"
+reportMissingTypeStubs = false
