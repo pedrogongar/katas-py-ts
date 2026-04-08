@@ -31,5 +31,7 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
 
-  "editor.rulers": [100]
+  "editor.rulers": [100],
+
+  "basedpyright.analysis.inlayHints.variableTypes": false
 }
