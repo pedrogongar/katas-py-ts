@@ -4,7 +4,7 @@
 
 > ¿Cómo obtengo las horas a partir del total de segundos?
 
-1 hora = 3600 segundos 
+1 hora = 3600 segundos
 
 Por lo tanto, para obtener el cociente hacemos,
 
@@ -47,7 +47,7 @@ Para calcular las horas,
 horas = 7325 / 3600
 horas = 2
 
-segundos = 7325 - (2 * 3600)
+segundos = 7325 - (2 \* 3600)
 segundos = 125
 
 Para obtener los minutos,
@@ -57,7 +57,7 @@ minutos = 2
 
 Para obtener los segundos,
 
-segundos = 125 - (2 * 60)
+segundos = 125 - (2 \* 60)
 segundos = 5
 
 Por tanto, 7325 segundos son 2 horas 2 minutos 5 segundos

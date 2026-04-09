@@ -24,16 +24,16 @@ Dicho en una sola frase: un año es bisiesto si es divisible por 4 y no por 100,
 
 ## 🎯 Ejemplos
 
-|  Año   | ¿Bisiesto? | Motivo                                      |
-| :----: | :--------: | ------------------------------------------- |
-| `2024` |  ✅ Sí     | Divisible por 4, no por 100                 |
-| `2023` |  ❌ No     | No es divisible por 4                       |
-| `2000` |  ✅ Sí     | Divisible por 400                           |
-| `1900` |  ❌ No     | Divisible por 100 pero no por 400           |
-| `2100` |  ❌ No     | Divisible por 100 pero no por 400           |
-| `1600` |  ✅ Sí     | Divisible por 400                           |
-| `4`    |  ✅ Sí     | Divisible por 4, no por 100                 |
-| `1`    |  ❌ No     | No es divisible por 4                       |
+|  Año   | ¿Bisiesto? | Motivo                            |
+| :----: | :--------: | --------------------------------- |
+| `2024` |   ✅ Sí    | Divisible por 4, no por 100       |
+| `2023` |   ❌ No    | No es divisible por 4             |
+| `2000` |   ✅ Sí    | Divisible por 400                 |
+| `1900` |   ❌ No    | Divisible por 100 pero no por 400 |
+| `2100` |   ❌ No    | Divisible por 100 pero no por 400 |
+| `1600` |   ✅ Sí    | Divisible por 400                 |
+|  `4`   |   ✅ Sí    | Divisible por 4, no por 100       |
+|  `1`   |   ❌ No    | No es divisible por 4             |
 
 ## ⚠️ Casos límite a considerar
 
@@ -74,14 +74,14 @@ Devuelve `true` si es bisiesto, `false` en caso contrario.
 
 ## 🧠 Conceptos implicados
 
-| Concepto            | Python                    | TypeScript             |
-| ------------------- | ------------------------- | ---------------------- |
-| Tipo booleano       | `bool`, `True` / `False`  | `boolean`, `true` / `false` |
-| Es divisible por…   | `n % k == 0`              | `n % k === 0`          |
-| Condicional         | `if` / `elif` / `else`    | `if` / `else if` / `else` |
-| Operador lógico Y   | `and`                     | `&&`                   |
-| Operador lógico O   | `or`                      | `\|\|`                 |
-| Operador lógico NO  | `not`                     | `!`                    |
+| Concepto           | Python                   | TypeScript                  |
+| ------------------ | ------------------------ | --------------------------- |
+| Tipo booleano      | `bool`, `True` / `False` | `boolean`, `true` / `false` |
+| Es divisible por…  | `n % k == 0`             | `n % k === 0`               |
+| Condicional        | `if` / `elif` / `else`   | `if` / `else if` / `else`   |
+| Operador lógico Y  | `and`                    | `&&`                        |
+| Operador lógico O  | `or`                     | `\|\|`                      |
+| Operador lógico NO | `not`                    | `!`                         |
 
 ### 📚 Documentación oficial
 

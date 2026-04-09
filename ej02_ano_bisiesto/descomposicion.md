@@ -40,4 +40,3 @@ Aplica tu razonamiento paso a paso, **sin código**, a este caso límite de la t
 - ¿Es divisible por 400? No
 
 - No es bisiesto
-

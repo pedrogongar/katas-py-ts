@@ -22,26 +22,26 @@ IMC = peso / (altura × altura)
 
 Las categorías, según la Organización Mundial de la Salud:
 
-| Rango de IMC          | Categoría     |
-| --------------------- | ------------- |
-| Menor que 18.5        | `Bajo peso`   |
-| Desde 18.5 hasta 25   | `Peso normal` |
-| Desde 25 hasta 30     | `Sobrepeso`   |
-| 30 o más              | `Obesidad`    |
+| Rango de IMC        | Categoría     |
+| ------------------- | ------------- |
+| Menor que 18.5      | `Bajo peso`   |
+| Desde 18.5 hasta 25 | `Peso normal` |
+| Desde 25 hasta 30   | `Sobrepeso`   |
+| 30 o más            | `Obesidad`    |
 
 Los rangos son **inclusivos por la izquierda**: un IMC de exactamente `25` es `Sobrepeso`, no `Peso normal`.
 
 ## 🎯 Ejemplos
 
-| Peso (kg) | Altura (m) |  IMC aprox.  | Categoría     |
-| :-------: | :--------: | :----------: | ------------- |
-|   `50`    |   `1.70`   |    `17.30`   | `Bajo peso`   |
-|   `60`    |   `1.80`   |    `18.52`   | `Peso normal` |
-|   `70`    |   `1.75`   |    `22.86`   | `Peso normal` |
-|   `75`    |   `1.75`   |    `24.49`   | `Peso normal` |
-|   `80`    |   `1.75`   |    `26.12`   | `Sobrepeso`   |
-|   `90`    |   `1.75`   |    `29.39`   | `Sobrepeso`   |
-|   `100`   |   `1.75`   |    `32.65`   | `Obesidad`    |
+| Peso (kg) | Altura (m) | IMC aprox. | Categoría     |
+| :-------: | :--------: | :--------: | ------------- |
+|   `50`    |   `1.70`   |  `17.30`   | `Bajo peso`   |
+|   `60`    |   `1.80`   |  `18.52`   | `Peso normal` |
+|   `70`    |   `1.75`   |  `22.86`   | `Peso normal` |
+|   `75`    |   `1.75`   |  `24.49`   | `Peso normal` |
+|   `80`    |   `1.75`   |  `26.12`   | `Sobrepeso`   |
+|   `90`    |   `1.75`   |  `29.39`   | `Sobrepeso`   |
+|   `100`   |   `1.75`   |  `32.65`   | `Obesidad`    |
 
 ## ⚠️ Casos límite a considerar
 
@@ -72,7 +72,7 @@ Devuelve uno de estos cuatro literales: `"Bajo peso"`, `"Peso normal"`, `"Sobrep
 ### TypeScript · `solucion.ts`
 
 ```typescript
-type CategoriaImc = "Bajo peso" | "Peso normal" | "Sobrepeso" | "Obesidad"
+type CategoriaImc = 'Bajo peso' | 'Peso normal' | 'Sobrepeso' | 'Obesidad'
 
 export const clasificarImc = (peso: number, altura: number): CategoriaImc => {
   // ...
@@ -85,15 +85,15 @@ export const clasificarImc = (peso: number, altura: number): CategoriaImc => {
 
 ## 🧠 Conceptos implicados
 
-| Concepto              | Python                              | TypeScript                          |
-| --------------------- | ----------------------------------- | ----------------------------------- |
-| Tipo decimal          | `float`                             | `number`                            |
-| Tipo cadena           | `str`                               | `string`                            |
-| Múltiples parámetros  | `def f(a: float, b: float)`         | `(a: number, b: number) =>`         |
-| Potencia              | `altura ** 2` o `altura * altura`   | `altura ** 2` o `altura * altura`   |
-| Cadena de condiciones | `if` / `elif` / `else`              | `if` / `else if` / `else`           |
-| Comparación de rango  | `18.5 <= imc < 25` (encadenable)    | `imc >= 18.5 && imc < 25`           |
-| Tipos union literales | _no aplica_                         | `type X = "a" \| "b" \| "c"`        |
+| Concepto              | Python                            | TypeScript                        |
+| --------------------- | --------------------------------- | --------------------------------- |
+| Tipo decimal          | `float`                           | `number`                          |
+| Tipo cadena           | `str`                             | `string`                          |
+| Múltiples parámetros  | `def f(a: float, b: float)`       | `(a: number, b: number) =>`       |
+| Potencia              | `altura ** 2` o `altura * altura` | `altura ** 2` o `altura * altura` |
+| Cadena de condiciones | `if` / `elif` / `else`            | `if` / `else if` / `else`         |
+| Comparación de rango  | `18.5 <= imc < 25` (encadenable)  | `imc >= 18.5 && imc < 25`         |
+| Tipos union literales | _no aplica_                       | `type X = "a" \| "b" \| "c"`      |
 
 ### 📚 Documentación oficial
 

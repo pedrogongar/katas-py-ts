@@ -16,17 +16,17 @@ Dado un número entero **no negativo** de segundos, devuelve cuántas horas, min
 
 ## 🎯 Ejemplos
 
-| Entrada | Resultado esperado            |
-| :-----: | ----------------------------- |
-|   `0`   | `0 h`, `0 min`, `0 s`         |
-|  `59`   | `0 h`, `0 min`, `59 s`        |
-|  `60`   | `0 h`, `1 min`, `0 s`         |
-| `3600`  | `1 h`, `0 min`, `0 s`         |
-| `3661`  | `1 h`, `1 min`, `1 s`         |
-| `7325`  | `2 h`, `2 min`, `5 s`         |
-| `86399` | `23 h`, `59 min`, `59 s`      |
-| `86400` | `24 h`, `0 min`, `0 s`        |
-| `90061` | `25 h`, `1 min`, `1 s`        |
+| Entrada | Resultado esperado       |
+| :-----: | ------------------------ |
+|   `0`   | `0 h`, `0 min`, `0 s`    |
+|  `59`   | `0 h`, `0 min`, `59 s`   |
+|  `60`   | `0 h`, `1 min`, `0 s`    |
+| `3600`  | `1 h`, `0 min`, `0 s`    |
+| `3661`  | `1 h`, `1 min`, `1 s`    |
+| `7325`  | `2 h`, `2 min`, `5 s`    |
+| `86399` | `23 h`, `59 min`, `59 s` |
+| `86400` | `24 h`, `0 min`, `0 s`   |
+| `90061` | `25 h`, `1 min`, `1 s`   |
 
 ## ⚠️ Casos límite a considerar
 
@@ -72,12 +72,12 @@ Devuelve un objeto con los tres campos.
 
 ## 🧠 Conceptos implicados
 
-| Concepto                  | Python                           | TypeScript                              |
-| ------------------------- | -------------------------------- | --------------------------------------- |
-| División entera           | `a // b`                         | `Math.floor(a / b)`                     |
-| Resto de división         | `a % b`                          | `a % b`                                 |
-| Agrupación de valores     | Tupla                            | Objeto literal con `type`               |
-| Tipado del retorno        | `tuple[int, int, int]`           | `type Hms = { ... }`                    |
+| Concepto              | Python                 | TypeScript                |
+| --------------------- | ---------------------- | ------------------------- |
+| División entera       | `a // b`               | `Math.floor(a / b)`       |
+| Resto de división     | `a % b`                | `a % b`                   |
+| Agrupación de valores | Tupla                  | Objeto literal con `type` |
+| Tipado del retorno    | `tuple[int, int, int]` | `type Hms = { ... }`      |
 
 ### 📚 Documentación oficial
 

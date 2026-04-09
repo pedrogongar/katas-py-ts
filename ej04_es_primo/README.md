@@ -18,20 +18,20 @@ Un número primo es un entero **mayor que 1** que solo es divisible por **1** y 
 
 ## 🎯 Ejemplos
 
-|  Entrada  | ¿Primo? | Motivo                                          |
-| :-------: | :-----: | ----------------------------------------------- |
-|   `-7`    |  ❌ No  | Los negativos no son primos por convención      |
-|   `0`     |  ❌ No  | Por convención                                  |
-|   `1`     |  ❌ No  | Por convención                                  |
-|   `2`     |  ✅ Sí  | El único primo par                              |
-|   `3`     |  ✅ Sí  | Solo divisible por 1 y por sí mismo             |
-|   `4`     |  ❌ No  | Divisible por 2                                 |
-|   `7`     |  ✅ Sí  | Solo divisible por 1 y por sí mismo             |
-|   `9`     |  ❌ No  | Divisible por 3                                 |
-|   `25`    |  ❌ No  | Divisible por 5                                 |
-|   `97`    |  ✅ Sí  | Primo "grande" típico                           |
-|   `100`   |  ❌ No  | Divisible por muchos                            |
-|   `101`   |  ✅ Sí  | Primo "grande" típico                           |
+| Entrada | ¿Primo? | Motivo                                     |
+| :-----: | :-----: | ------------------------------------------ |
+|  `-7`   |  ❌ No  | Los negativos no son primos por convención |
+|   `0`   |  ❌ No  | Por convención                             |
+|   `1`   |  ❌ No  | Por convención                             |
+|   `2`   |  ✅ Sí  | El único primo par                         |
+|   `3`   |  ✅ Sí  | Solo divisible por 1 y por sí mismo        |
+|   `4`   |  ❌ No  | Divisible por 2                            |
+|   `7`   |  ✅ Sí  | Solo divisible por 1 y por sí mismo        |
+|   `9`   |  ❌ No  | Divisible por 3                            |
+|  `25`   |  ❌ No  | Divisible por 5                            |
+|  `97`   |  ✅ Sí  | Primo "grande" típico                      |
+|  `100`  |  ❌ No  | Divisible por muchos                       |
+|  `101`  |  ✅ Sí  | Primo "grande" típico                      |
 
 ## ⚠️ Casos límite a considerar
 
@@ -74,12 +74,12 @@ Devuelve `true` o `false`.
 
 ## 🧠 Conceptos implicados
 
-| Concepto                  | Python                            | TypeScript                              |
-| ------------------------- | --------------------------------- | --------------------------------------- |
-| Bucle con rango           | `for i in range(2, n):`           | `for (let i = 2; i < n; i++) {}`        |
-| Salir del bucle antes     | `break`                           | `break`                                 |
-| Devolver dentro del bucle | `return False`                    | `return false`                          |
-| Comprobar divisibilidad   | `n % i == 0`                      | `n % i === 0`                           |
+| Concepto                  | Python                  | TypeScript                       |
+| ------------------------- | ----------------------- | -------------------------------- |
+| Bucle con rango           | `for i in range(2, n):` | `for (let i = 2; i < n; i++) {}` |
+| Salir del bucle antes     | `break`                 | `break`                          |
+| Devolver dentro del bucle | `return False`          | `return false`                   |
+| Comprobar divisibilidad   | `n % i == 0`            | `n % i === 0`                    |
 
 ### 📚 Documentación oficial
 
