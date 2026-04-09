@@ -1,6 +1,6 @@
 [tool.pytest.ini_options]
 addopts = "--import-mode=importlib -ra"
-testpaths = ["ej00_setup", "ej01_segundos_a_hms", "ej02_ano_bisiesto", "ej03_imc"]
+testpaths = ["ej00_setup", "ej01_segundos_a_hms", "ej02_ano_bisiesto", "ej03_imc", "ej04_es_primo"]
 
 [tool.basedpyright]
 typeCheckingMode = "standard"
