@@ -1,0 +1,10 @@
+node_modules
+.venv
+dist
+*.lock
+pnpm-lock.yaml
+.git
+ej**/python/
+.pytest_cache
+.ruff_cache
+__pycache__
